@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navitm{
+    color: black;
+    font-weight: 30;
+    font-size: 15px;
+    text-decoration: none;
+}
+/* .btns{
+    margin-left: 420px;
+} */
+.signin{
+    font-weight: 700;
+    background-color: white;
+    font-size: .6875rem;
+}
+.signin:hover{
+    background-color: lightgray;
+}
+.signup{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #002be7;
+
+}
+.signup:hover{
+    background-color: #002be7;
+    color: white;
+}
+.txt{
+    line-height: 30px;
+}
+.wrap {
+   
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+.subf{
+    background-image: url(' https://static.hbo.com/2024-03/brand-quilt.jpg ');
+    background-size: cover;
+
+}
+.sun{
+    font-size: 12px;
+    font-weight: 650;
+}
+.maxx{
+    background-color: hsla(229, 100%, 45%, 1);
+    background-image:  radial-gradient(at 37% 90%, hsla(184, 100%, 26%, 0.32) 0px, transparent 50%), radial-gradient(at 87% 100%, hsla(239, 100%, 26%, 0.7) 0px, transparent 50%), radial-gradient(at 100% 95%, hsla(228, 100%, 26%, 1) 0px, transparent 50%), radial-gradient(at 4% 6%, hsla(239, 100%, 26%, 1) 0px, transparent 50%);;
+}
+.maximg{
+    border: 1px solid rgb(3, 118, 242);
+    border-radius: 0.3rem;
+}
+#ftr{
+    background-color: #404040;
+}
+.flink{
+    color: white;
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 16px;
+}
+.flink2{
+    color: white;
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 14px;
+}
+.fp{
+    font-size: 100;
+    font-size: 12px;
+}
+.slick-slide > div{
+    margin: 0 15px;
+}
+#hotd{
+ position: absolute;   
+}
+
+#hotdinfo{
+    width: 100%;
+    position:absolute;
+    z-index:999;
+    bottom:60px;
+    left:115px; 
+    color: white;
+}
+@media(max-width:768px){
+    #hotd{
+        position: static;
+       
+        
+    }
+    #hotdinfo{
+        position: static;
+        text-align: center;
+        color: black;
+    }
+    #sch{
+        border-bottom: 1px solid grey;
+        padding-bottom: 10px;
+    }
+}
+.stxt{
+    font-size: .90rem;
+    font-style: normal;
+    font-weight: 700;
+}
